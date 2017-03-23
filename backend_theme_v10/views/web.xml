@@ -238,5 +238,10 @@
             </div>
         </xpath>
     </template>
+    <template id="layout" inherit_id="web.layout">
+        <xpath expr="//link[@rel='shortcut icon']" position="replace">
+            <link rel="icon" href="/backend_theme_v10/static/src/img/favicon.ico" />
+        </xpath>
+    </template>
 
 </odoo>
